@@ -43,17 +43,17 @@
             <section>
                 <h2 class="text-gray">Coheça a GAPP</h2>
                 <p class="text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita repellat quod hic aliquam quasi magnam laborum adipisci non voluptatum ut, totam nemo sint voluptas, porro, aliquid obcaecati? Ipsa, impedit doloremque!</p>
-                <button class="btn-saiba-mais">Saiba Mais</button>
+                <button class="btn-saiba-mais" onclick=getNotifications()>Seja Atualizado</button>
             </section>
             <section>
                 <h2 class="text-gray">Produtos e Serviços</h2>
                 <p class="text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita repellat quod hic aliquam quasi magnam laborum adipisci non voluptatum ut, totam nemo sint voluptas, porro, aliquid obcaecati? Ipsa, impedit doloremque!</p>
-                <button class="btn-saiba-mais">Saiba Mais</button>
+                <button class="btn-saiba-mais" onclick=getNotifications()>Seja Atualizado</button>
             </section>
         </div>
         <div class="card">
-            <h2>Principais aplicações</h2>
-            <img src="./images/img-video.jpg" alt="img-video">
+            <h2>Nossa Localização</h2>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="" name="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-i.net">123movies eu</a><br><style>.mapouter{height:200px;width:300px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:300px;}</style></div></div>
         </div>
       </div>
 
@@ -61,10 +61,11 @@
 
     <footer class="footer">
       <div class="footer__copyright">&copy; 2018 MTH</div>
-      <div class="footer__signature">Made with love</div>
+      <div class="footer__signature">Made with &#x2661; by Victor</div>
     </footer>
   </div>
-  <script src="./code.js"></script>
+  <script src="./js/geolocation.js"></script>
+  <script src="./js/notifications.js"></script>
 </body>
 
 </html>

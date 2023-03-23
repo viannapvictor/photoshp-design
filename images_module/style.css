@@ -16,6 +16,7 @@
       "main"
       "footer";
     height: 100vh;
+    background-color: #262626;
 }
 
 .header {
